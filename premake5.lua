@@ -22,7 +22,7 @@ project "GLFW"
         buildoptions { "-std:c99", "-lgdi32" }
         cdialect "gnu99"
         systemversion "latest"
-        staticruntime "On"
+        staticruntime "off"
 
         files
         {
